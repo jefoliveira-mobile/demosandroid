@@ -23,7 +23,9 @@ plugins {
     id("nowinandroid.android.hilt")
     id("jacoco")
     id("nowinandroid.firebase-perf")
+    id("nowinandroid.documentation-plugin")
 }
+
 
 android {
     defaultConfig {

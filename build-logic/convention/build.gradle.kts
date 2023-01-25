@@ -72,5 +72,11 @@ gradlePlugin {
             id = "nowinandroid.firebase-perf"
             implementationClass = "FirebasePerfConventionPlugin"
         }
+        register("documentation-plugin") {
+            id = "nowinandroid.documentation-plugin"
+            implementationClass = "DocumentationPlugin"
+        }
+
     }
 }
+
